@@ -161,7 +161,7 @@ gap: 24px;}
 max-width: 264px;} */
 
 /* Our work section */
-.our-work-container{padding-bottom: 120px;}
+.our-work {padding-bottom: 120px;}
 
 .our-work-title{margin-bottom: 72px;}
 
@@ -171,29 +171,40 @@ padding-bottom: 118px;}
 our-work-item{border: 1px solid #e7e9fc;}
 
 /* Our Team section  */
-.our-team {background-color: #f4f4fd;}
-.our-team-title {padding-top: 120px;
+.our-team {background-color: #f4f4fd;
+padding: 120px 0;}
+
+.our-team-title {
     margin-bottom: 72px;}
+
 .our-team-list {display: flex;
     align-items: center;
     gap: 24px;
 }
-.our-team-item {text-align: center;
+
+.team-member-info {padding: 32px 16px;}
+.team-member-name {text-align: center;
+    margin-bottom: 8px;;
+}
+.team-member-job {text-align: center;}
+
+.our-team-item {
 background-color:var(--first-font);
 box-shadow: 0px 1px  6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0 0 4px 4px;
-padding-bottom: 32px;
-margin-bottom: 120px;}
+}
 .team-member-photo{margin-bottom: 32px;}
 .team-member-name{margin-bottom: 8px;}
 
 /* Footer styles */
-.footer{background-color: var(--main-text-color);}
-.footer-container{padding: 100px 0;}
-.footer-logo-alt{color: var(--first-font);}
+.footer {padding: 100px 0;
+    background-color: var(--main-text-color);}
+.footer-logo-alt{color: var(--first-font);
+display: inline-block;
+margin-bottom: 16px;}
+
 .footer-info{
     display: block;
-    margin-top: 16px;
     max-width: 264px;
     color: var(--first-font);}
 
