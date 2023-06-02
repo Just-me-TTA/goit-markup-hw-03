@@ -47,15 +47,13 @@ padding-left: 0;}
 
 .container {width: 100%;
 max-width: 1158px;
-padding-left: 15px;
-padding-right: 15px;
+padding: 0 15px;
 margin: 0 auto;}
 
 /* СТИЛІ ШАПКИ */
 .header-container {display: flex;
 align-items: center;
-padding: 24px 0;
-order-bottom: 1px solid #e7e9fc;}
+border-bottom: 1px solid #e7e9fc;}
 
 .header-logo{margin-right: 76px;
 font-family: 'Raleway', sans-serif;
@@ -82,6 +80,7 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color:var(--main-text-color);
+padding: 24px 0;
 }
 
 .header-contacts-list {display: flex;
@@ -145,18 +144,20 @@ gap: 40px;}
     }
 
 /* /* Benefits section styles  * */
-.benefits-container{align-items: center;
+.benefits-container
+
+{align-items: center;
 padding: 120px 0;}
+
 .benefits-list{display: flex;
-margin-top: 120px;
-gap: 24px;}
+ap: 24px;}
 
 .benefits-item{width: calc((100% - 72px)/4);}
 
-.benefits-title{margin-bottom: 8px;}
+.benefits-title{margin-bottom: 72px;}
 
-.benefits-content{margin-bottom: 120px;
-max-width: 264px;}
+/* .benefits-content{margin-bottom: 120px;
+max-width: 264px;} */
 
 /* Our work section */
 .oor-work{padding-bottom: 120px;}
