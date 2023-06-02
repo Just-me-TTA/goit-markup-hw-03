@@ -51,12 +51,14 @@ padding: 0 15px;
 margin: 0 auto;}
 
 /* СТИЛІ ШАПКИ */
+.header{border-bottom: 1px solid #e7e9fc;}
+
 .header-container {display: flex;
 align-items: center;
-border-bottom: 1px solid #e7e9fc;}
+}
 
 .header-logo{margin-right: 76px;
-font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -97,14 +99,14 @@ gap: 40px;}
 
 /* Hero-section styles */
 .hero {background-color: #2E2F42;
-   }
+   padding: 188px 0;}
 
 .hero-container{
-         padding: 118px 0;}
+            }
 
 .hero-title {
     margin: 0 auto;
-    padding-bottom: 48px;
+   margin-bottom: 48px;
     max-width: 496px;
     font-style: normal;
     font-weight: 700;
