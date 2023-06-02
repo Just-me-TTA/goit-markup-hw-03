@@ -199,10 +199,9 @@ border-radius: 0 0 4px 4px;
 /* Footer styles */
 .footer {padding: 100px 0;
     background-color: var(--main-text-color);}
-.footer-logo-alt{color: var(--first-font);
-display: inline-block;
+.footer-logo-alt{color: var(--first-font);}
+.footer-link{display: inline-block;
 margin-bottom: 16px;}
-
 .footer-info{
     display: block;
     max-width: 264px;
