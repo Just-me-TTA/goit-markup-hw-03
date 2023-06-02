@@ -54,7 +54,8 @@ margin: 0 auto;}
 .header-container {display: flex;
 align-items: center;}
 
-.header {padding: 24px 0;}
+.header {padding: 24px 0;
+border-bottom: 1px solid #e7e9fc;}
 .header-logo{margin-right: 76px;
 font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -73,6 +74,7 @@ flex-grow: 1;}
 
 .header-list {display: flex;
 gap: 40px;
+padding: 24px 0;
 }
 .header-list-item {font-weight: 500;
 font-size: 16px;
