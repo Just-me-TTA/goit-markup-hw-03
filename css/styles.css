@@ -81,9 +81,11 @@ gap: 40px;}
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
-color:var(--main-text-color);
-padding: 24px 0
-}
+color:var(--main-text-color);}
+
+.header-list-link {
+    display: inline-block;
+    padding: 24px 0;}
 
 .header-contacts-list {display: flex;
 gap: 40px;}
@@ -159,8 +161,10 @@ gap: 24px;}
 max-width: 264px;} */
 
 /* Our work section */
-.oor-work{padding-bottom: 120px;}
+.our-work-container{padding-bottom: 120px;}
+
 .our-work-title{margin-bottom: 72px;}
+
 .our-work-list {display: flex;
 gap: 24px;
 padding-bottom: 118px;}
