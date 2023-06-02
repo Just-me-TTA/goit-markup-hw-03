@@ -146,17 +146,14 @@ gap: 40px;}
     }
 
 /* /* Benefits section styles  * */
-.benefits-container
-
-{align-items: center;
-padding: 120px 0;}
+.benefits {padding: 120px 0;}
 
 .benefits-list{display: flex;
-ap: 24px;}
+gap: 24px;}
 
 .benefits-item{width: calc((100% - 72px)/4);}
 
-.benefits-title{margin-bottom: 72px;}
+.benefits-title{margin-bottom: 8px;}
 
 /* .benefits-content{margin-bottom: 120px;
 max-width: 264px;} */
